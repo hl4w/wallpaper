@@ -21,7 +21,7 @@ if [ ! -d .git ]; then
 
     if gum confirm "下载并安装壁纸仓库？" ;then
         echo ">>> 下载中..."
-        wget -q -P $HOME/Downloads/ https://gitee.com/silaszk/wallpaper/repository/archive/master.zip
+        wget -q -P $HOME/Downloads/ https://gitee.com/hl4w/wallpaper/repository/archive/master.zip
 
         echo ">>> 解压中..."
         unzip -q -o $HOME/Downloads/wallpaper-master.zip -d $HOME/Downloads/
